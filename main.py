@@ -14,7 +14,7 @@ from pyrogram import enums
 API_ID = os.environ.get("API_ID", "23112604") 
 API_HASH = os.environ.get("API_HASH", "117564565390a7f9b970caecb521954e") 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6615626505:AAEREa4LmGFiZC4cug4QJ2QJJvdLBEFmKY0") 
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://python:python@cluster0.lwezs.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://hunt:hunt@cluster0.41atokv.mongodb.net/?retryWrites=true&w=majority")
 BOT_USERNAME = os.environ.get("BOT_USERNAME","SONPARI_AI_BOT") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL","STAR_DP_CHANNEL")
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "II_DRAGON_KING_OP_II")
@@ -22,7 +22,7 @@ SUPPORT_GRP = os.environ.get("SUPPORT_GRP","YARO_KA_KAFILA_OP")
 BOT_NAME = os.environ.get("BOT_NAME","SONPARI")
 START_IMG = os.environ.get("START_IMG","https://graph.org/file/a22d305537ed5c075da04.jpg")
 
-STKR = os.environ.get("STKR", "BQACAgEAAxkDA5i-R2Tc4AwBqNIYpcGeqDvcRDk76RZJAAKhAgACYPPpRrxm0K0YNDeLMAQ")
+STKR = os.environ.get("STKR", "BQACAgEAAxkDA5i-CAACAgUAAxkBAAECHrFj_HZKXwG0H1YBifbIst8TpwuhMwACSgMAAvLkIVex3cOyym424y4E")
 
 
 StartTime = time.time()
