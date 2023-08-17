@@ -22,7 +22,7 @@ SUPPORT_GRP = os.environ.get("SUPPORT_GRP","YARO_KA_KAFILA_OP")
 BOT_NAME = os.environ.get("BOT_NAME","SONPARI")
 START_IMG = os.environ.get("START_IMG","https://graph.org/file/a22d305537ed5c075da04.jpg")
 
-STKR = os.environ.get("STKR", "BQACAgEAAxkDA5i-CAACAgUAAxkBAAECHrFj_HZKXwG0H1YBifbIst8TpwuhMwACSgMAAvLkIVex3cOyym424y4E")
+STKR = os.environ.get("STKR", "CAADBQADtwMAAg4eYVSo7CfKhVr4jwI")
 
 
 StartTime = time.time()
