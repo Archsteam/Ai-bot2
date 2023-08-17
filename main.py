@@ -173,7 +173,6 @@ async def restart(client, message):
 async def source(bot, m):
     await m.reply_photo(START_IMG, caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS, reply_to_message_id=m.id)
 #  alive
-"""
 @Mukesh.on_message(filters.command(["ping","alive"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
         start = datetime.now()
@@ -186,10 +185,11 @@ async def ping(client, message: Message):
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
-                             photo=START_IMG,your_godfather_xd @II_DRAGON_KING_OP_II
+                             photo=START_IMG,
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [ɢᴏᴅғᴀᴛʜᴇʀ](https://t.me/YARO_KA_KAFILA_OP)||**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
-"""
+       
 @Mukesh.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
     & ~filters.private)
